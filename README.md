@@ -3,17 +3,17 @@
 Tired of Those Tedious Compiling Steps to install OpenCV in Raspberry Pi ? Sometimes Pi just Reboot while Sometimes compilation error Occurs . Well, Here is the pre-compiled file for you for easy installation in no time.
 
 
-Name: OpenCV
+> Name: OpenCV
 
-version: 4.1
+> version: 4.1
 
-Architecture : armhf
+> Architecture : armhf
 
-Target : Raspberry Pi
+> Target : Raspberry Pi
 
-Python : 2 , 3
+> Python : 2 , 3
 
-Status : Pre-Compiled
+> Status : Pre-Compiled
 
 
 # No need to Compile Opencv for Serveral hours for your Raspberry Pi.
@@ -23,14 +23,11 @@ These are precompiled files and all you need is few terminal commands and you ar
 This will install OpenCV for both Python 2 and Python 3.
 
 ## STEPS
-Make sure following packages are installed:
+Make sure following packages are installed :
 
-sudo apt install libtiff-dev zlib1g-dev libjpeg-dev libpng-dev libavcodec-dev 
-
-sudo apt install libavformat-dev libswscale-dev libv4l-dev libxvidcore-dev libx264-dev
 
 Steps:
-
+```
   1. Open Terminal.
   2. Type :
       git clone https://github.com/kshitijsubedi/Easy_OPENCV_Raspberry_Pi
@@ -48,7 +45,7 @@ Steps:
       python
       import cv2
       exit()
-    
+```    
 # If You got any Error like ' libopencv_***.so.1.2 no such Directory or files .... '
 
 Troubleshoot:
