@@ -4,11 +4,17 @@ Tired of Those Tedious Compiling Steps to install OpenCV in Raspberry Pi ? Somet
 
 
 Name: OpenCV
+
 version: 4.1
+
 Architecture : armhf
+
 Target : Raspberry Pi
+
 Python : 2 , 3
+
 Status : Pre-Compiled
+
 
 # No need to Compile Opencv for Serveral hours for your Raspberry Pi.
 
