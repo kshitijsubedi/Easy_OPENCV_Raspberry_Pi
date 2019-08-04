@@ -22,11 +22,14 @@ These are precompiled files and all you need is few terminal commands and you ar
 
 This will install OpenCV for both Python 2 and Python 3.
 
-## STEPS
 Make sure following packages are installed :
+```sh
+ sudo apt install libtiff-dev zlib1g-dev libjpeg-dev libpng-dev libavcodec-dev 
 
+ sudo apt install libavformat-dev libswscale-dev libv4l-dev libxvidcore-dev libx264-dev
+```
 
-Steps:
+## Steps:
 ```
   1. Open Terminal.
   2. Type :
